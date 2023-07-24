@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1050){
   :root {
     --width: 900px;
     --big-width: 1024px;
@@ -124,6 +124,10 @@
   }
 
   /* Section Market */
+  #market h2 {
+    font-size: 3rem;
+  }
+
   #market > p {
     font-size: 20px;
     margin-top: 30px;
@@ -307,7 +311,7 @@
   }
 
   #showtext {
-    max-width: 55%;
+    max-width: 70%;
     display: block;
   }
 
@@ -367,7 +371,7 @@
 
   #future {
     margin-top: 3.5rem;
-    width: 65%;
+    width: 75%;
   }
   
   #future h2 {
@@ -433,7 +437,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
-    background-position: -3rem 3rem;
+    background-position: -3rem 0rem;
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;
   }
@@ -691,7 +695,7 @@
   #gettingstarted {
     background-image: url(../pics/getting-started-bg.jpg);
     padding: 90px 50px;
-    width: var(--big-width);
+    width: 122%;
   }
 
   #gettingstarted > h2 {
@@ -793,7 +797,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     background-color: #000;
-    width: var(--big-width);
+    width: 122%;
     color: #fff;
     padding: 110px 80px 10px;
   }
@@ -971,13 +975,13 @@
   
   #future h2 {
   font-size: 31px;
-  margin: 1.8rem 1rem 1.3rem;
+  margin: 1.8rem 1rem 1.3rem 4.3rem;
   }
   
   #future h3 {
     font-size: 18px;
     font-weight: 100;
-    margin: 1rem 1rem 5rem;
+    margin: 1rem 1rem 5rem 4.3rem;
     width: auto;
   }
 
@@ -992,11 +996,11 @@
     background-image: url('../pics/connect.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -33rem 0rem;
-    width: 100%;
+    background-position: -30rem 0rem;
+    width: 93%;
     border-radius: 1rem;
     padding: 2rem 1.5rem 6rem;
-    margin: 0 auto 1rem;
+    margin: 0 0 1rem 3.5rem;
     height: 560px;
   }
 
@@ -1026,14 +1030,14 @@
 
   #directpay {
     background-image: url('../pics/directpay.jpg');
-    width: 100%;
+    width: 93%;
     height: 560px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0 -11rem;
     padding: 1rem 1.5rem;
-    margin-bottom: 0rem;
+    margin: 0 0 1rem 3.5rem;
   }
   
   #directpay h2 {
@@ -1084,13 +1088,14 @@
   #percept {
     background-image: url('../pics/percept.png');
     color: #fff;
-    width: 100%;
+    width: 93%;
     height: 560px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0% -8rem;
     padding: 2rem 1.5rem;
+    margin: 0 0 1rem 3.5rem;
   }
 
   #percept a {
@@ -1397,6 +1402,10 @@
     padding: 0px 40px 60px;
   }
 
+  footer hr {
+    width: 100%;
+  }
+
   #start_building {
     color: #fff;
     text-align: center;
@@ -1562,13 +1571,13 @@
   
   #future h2 {
   font-size: 2.3rem;
-  margin: 1.8rem 1rem 1.3rem;
+  margin: 1.8rem 1rem 1.3rem 4.2rem;
   }
   
   #future h3 {
     font-size: 17px;
     font-weight: 100;
-    margin: 1rem 1rem 5rem;
+    margin: 1rem 1rem 5rem 4.3rem;
     width: auto;
   }
 
@@ -1584,10 +1593,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -25rem 0rem;
-    width: 100%;
+    width: 93%;
     border-radius: 1rem;
     padding: 2rem 1.5rem 6rem;
-    margin: 0 auto 1rem;
+    margin: 0 0 1rem 3.3rem;
     height: 500px;
   }
 
@@ -1617,14 +1626,14 @@
 
   #directpay {
     background-image: url('../pics/directpay.jpg');
-    width: 100%;
+    width: 93%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0 -1rem;
     padding: 1rem 1.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 1rem 3.3rem;
   }
   
   #directpay h2 {
@@ -1675,13 +1684,15 @@
   #percept {
     background-image: url('../pics/percept.png');
     color: #fff;
-    width: 100%;
+    width: 93%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0% 0rem;
     padding: 2rem 1.5rem;
+    margin: 0 0 1rem 3.3rem;
+
   }
 
   #percept a {
@@ -1988,6 +1999,10 @@
     padding: 0px 40px 60px;
   }
 
+  footer hr {
+    width: 100%;
+  }
+
   #start_building {
     color: #fff;
     text-align: center;
@@ -2134,8 +2149,8 @@
   /* Trustees */
     #trustees {
     display: grid;
-    grid-template-columns: repeat(2. auto);
-    grid-template-rows: repeat(2. auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
     justify-content: space-between;
     width: 100%;
     margin-top: 2rem;
@@ -2153,13 +2168,13 @@
   
   #future h2 {
   font-size: 2.1rem;
-  margin: 1.8rem 1rem 1.3rem;
+  margin: 1.8rem 1rem 1.3rem 4.7rem;
   }
   
   #future h3 {
     font-size: 1.3rem;
     font-weight: 100;
-    margin: 1rem 1rem 3.5rem;
+    margin: 1rem 1rem 3.5rem 4.7rem;
     width: auto;
   }
 
@@ -2175,10 +2190,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -32rem 0rem;
-    width: 500px;
+    width: 90%;
     border-radius: 1rem;
     padding: 2rem 1.5rem 6rem;
-    margin: 0 auto 1rem;
+    margin: 0 0 1rem 3.8rem;
     height: 500px;
   }
 
@@ -2208,14 +2223,14 @@
 
   #directpay {
     background-image: url('../pics/directpay.jpg');
-    width: 500px;
+    width: 90%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0 -1rem;
     padding: 1rem 1.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 1rem 3.8rem;
   }
   
   #directpay h2 {
@@ -2266,13 +2281,16 @@
   #percept {
     background-image: url('../pics/percept.png');
     color: #fff;
-    width: 500px;
+    width: 90%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0% 0rem;
     padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    margin: 0 0 1rem 3.8rem;
+
   }
 
   #percept a {
@@ -2638,7 +2656,7 @@
 
 @media screen and (max-width: 550px){
   :root {
-    --width: 450px;
+    --width: 480px;
     --big-width: 500px;
     --font-size-1: 13px;
   }
@@ -2722,9 +2740,10 @@
 
   /* Trustees */
     #trustees {
-    display: grid;
-    grid-template-columns: repeat(2. auto);
-    grid-template-rows: repeat(2. auto);
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
     margin-top: 2rem;
@@ -2732,23 +2751,24 @@
 
   #trustees img {
     margin: 0 0rem 1rem 0;
+
   }
 
   /* Future */
   #future {
-    margin-top: 3.5rem;
+    margin-top: 3.5rem auto;
     width: 100%;
   }
   
   #future h2 {
   font-size: 2.1rem;
-  margin: 1.8rem 1rem 1.3rem;
+  margin: 1.8rem 1rem 1.3rem 4.7rem;
   }
   
   #future h3 {
     font-size: 1.3rem;
     font-weight: 100;
-    margin: 1rem 1rem 3.5rem;
+    margin: 1rem 1rem 3.5rem 4.7rem;
     width: auto;
   }
 
@@ -2764,10 +2784,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -35rem 0rem;
-    width: 440px;
+    width: 90%;
     border-radius: 1rem;
     padding: 2rem 1.5rem 6rem;
-    margin: 0 auto 1rem;
+    margin: 0 0 1rem 3.5rem;
     height: 500px;
   }
 
@@ -2797,14 +2817,14 @@
 
   #directpay {
     background-image: url('../pics/directpay.jpg');
-    width: 440px;
+    width: 90%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
     background-position: 0 -1rem;
     padding: 1rem 1.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 1rem 3.5rem;
   }
   
   #directpay h2 {
@@ -2855,8 +2875,9 @@
   #percept {
     background-image: url('../pics/percept.png');
     color: #fff;
-    width: 440px;
+    width: 90%;
     height: 500px;
+    margin: 0 0 1rem 3.5rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
@@ -2907,7 +2928,6 @@
   #carbon #links ul {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    /* grid-template-rows: repeat(2, auto); */
     gap: 1rem;
     justify-content: space-between;
     align-items: center;
@@ -2933,9 +2953,13 @@
     padding: 0.8rem 1.3rem;
   }
 
+  #carbon #links hr {
+    width: 83%;
+  }
+
   #carbons {
     margin-top: 2rem;
-    height: 910px;
+    height: max-content;
     width: 100%;
     display: flex;
     flex-direction: column;
