@@ -100,11 +100,11 @@ a {
   min-width: 200px;
   padding: 30px;
   margin-top: 1rem;
-  border: #bebbbb 0.5px solid;
+  border: #bebbbb 0px solid;
   border-radius: 10px;
   z-index: 4;
   background-color: #fff;
-  box-shadow: 1px 1px 25px #999;
+  box-shadow: 0 0 20px #e0dfdf;
 }
 
 #navbar ul li:hover #why {
